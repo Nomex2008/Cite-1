@@ -1,0 +1,127 @@
+body {
+    background-color: #e8e8e8;
+    background: url("../img/ellipse_1_copy_4.png") 200px 30px no-repeat;
+
+    font-family: 'Times New Roman';
+}
+
+.material{
+    max-width: 841px;
+    padding: 125px 0 137px 0 ;
+    margin: 0 auto;
+}
+
+.header {
+    text-align: center;
+}
+.title {
+    opacity: 0.6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #273d46;
+}
+
+.subTitle{
+    font-size: 36px;
+    line-height: 50px;
+    font-weight: 400;
+    color: #273d46;
+}
+
+
+.main__img {
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0px 15px 65px 0px rgba(15,16,16,0.15);
+}
+.main__img img {
+    max-width: 100%;
+}
+
+.bottom {
+    margin-top: 90px;
+}
+.content__bottom__text {
+    opacity: 0.8;
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 400;
+    color: #273d46;
+}
+.content__bottom__text p {
+    margin-bottom: 45px;
+}
+
+.content__bottom__info {}
+
+.content__bottom__info--list {
+    
+}
+
+.content__bottom__info--list li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 36px;
+    margin-bottom: 12px;
+    padding-left: 30px;
+
+    background: url('../img/icon/check_icon_37.png') 0 center no-repeat;
+}
+
+.content__bottom__info--list li:nth-child(1){
+    font-weight: 400;
+    text-shadow: 0px 1px 0px rgba(0,0,0,0.3);
+    color: #273d46;
+}
+.content__bottom__info--list li:nth-child(2){
+    font-weight: 400;
+    font-style: italic;
+    color: #80b7b3;
+}
+.content__bottom__info--list li:nth-child(3){
+    font-weight: 700;
+    color: #273d46;
+}
+.content__bottom__info--list li:nth-child(4){
+    opacity: 0.3;
+    font-weight: 400;
+    text-decoration: line-through;
+    color: #273d46;
+}
+
+.content__bottom__info--link {
+    height: 44px;
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #ffffff;
+
+
+    box-shadow: 5px 5px 1px rgba(0, 0, 0, 1.0);
+
+    background-color: #80b7b3;
+
+    padding: 15px 30px;
+    border-radius: 15px;
+}
+.content__bottom__info--link span{
+    padding-right: 32px;
+
+    background: url('../img/icon/shape_2_9.png') right no-repeat;
+}
+.content__bottom__info--link:hover {
+    background-color: darkred;
+}
+
+.content__bottom__info--link:active{
+    position: relative;
+    top: 5px;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, .5);
+}
